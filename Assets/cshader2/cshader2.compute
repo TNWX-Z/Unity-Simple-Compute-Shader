@@ -1,0 +1,14 @@
+﻿#pragma kernel CSMain
+
+Texture2D<float3> imgbuffer;
+RWTexture2D<float3> texbuffer;
+
+#include "UnityCG.cginc"
+[numthreads(8,8,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+	texbuffer[id.xy] = imgbuffer[id.xy];// *1.5 - 0.6;
+	if (id.x <= floor(_Time.y)) {
+		texbuffer[id.xy] = float3(0.,0,0);
+	}
+}

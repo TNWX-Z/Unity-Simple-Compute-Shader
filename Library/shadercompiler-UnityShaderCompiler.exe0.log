@@ -1,0 +1,72 @@
+Base path: D:/Unity5.4/Editor/Data
+Cmd: getPlatforms
+Cmd: compileCompute
+  api=4 insize=210 outsize=449 ok=1
+Cmd: compileCompute
+  api=4 insize=213 outsize=205 ok=1
+Cmd: compileCompute
+  api=4 insize=210 outsize=449 ok=1
+Cmd: compileCompute
+  error: 2 plat 4 at cshader2.compute(12): typed UAV loads are only allowed for single-component 32-bit element types
+  api=4 insize=250 outsize=33 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at cshader2.compute(12): typed UAV loads are only allowed for single-component 32-bit element types
+  api=4 insize=250 outsize=33 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at cshader2.compute(12): typed UAV loads are only allowed for single-component 32-bit element types
+  api=4 insize=251 outsize=33 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at cshader2.compute(12): typed UAV loads are only allowed for single-component 32-bit element types
+  api=4 insize=251 outsize=33 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at cshader2.compute(12): typed UAV loads are only allowed for single-component 32-bit element types
+  api=4 insize=253 outsize=33 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at cshader2.compute(12): typed UAV loads are only allowed for single-component 32-bit element types
+  api=4 insize=253 outsize=33 ok=0
+Cmd: compileCompute
+  api=4 insize=257 outsize=449 ok=1
+Cmd: compileCompute
+  error: 2 plat 4 at cshader2.compute(12): typed UAV loads are only allowed for single-component 32-bit element types
+  api=4 insize=256 outsize=33 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at cshader2.compute(12): typed UAV loads are only allowed for single-component 32-bit element types
+  api=4 insize=256 outsize=33 ok=0
+Cmd: compileCompute
+  api=4 insize=263 outsize=449 ok=1
+Cmd: compileCompute
+  error: 2 plat 4 at cshader2.compute(12): typed UAV loads are only allowed for single-component 32-bit element types
+  api=4 insize=261 outsize=33 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at cshader2.compute(12): typed UAV loads are only allowed for single-component 32-bit element types
+  api=4 insize=261 outsize=33 ok=0
+Cmd: compileCompute
+  api=4 insize=250 outsize=449 ok=1
+Cmd: compileCompute
+  api=4 insize=267 outsize=565 ok=1
+Cmd: compileCompute
+  api=4 insize=268 outsize=525 ok=1
+Cmd: compileCompute
+  api=4 insize=269 outsize=525 ok=1
+Cmd: compileCompute
+  api=4 insize=270 outsize=525 ok=1
+Cmd: compileCompute
+  api=4 insize=269 outsize=525 ok=1
+Cmd: compileCompute
+  error: 2 plat 4 at cshader2.compute(11): undeclared identifier '_Time'
+  api=4 insize=280 outsize=33 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at cshader2.compute(11): undeclared identifier '_Time'
+  api=4 insize=280 outsize=33 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at cshader2.compute(6): unrecognized identifier 'include'
+  api=4 insize=303 outsize=33 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at cshader2.compute(6): unrecognized identifier 'include'
+  api=4 insize=303 outsize=33 ok=0
+Cmd: compileCompute
+  error: 1 plat 4 at cshader2.compute(11): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=304 outsize=677 ok=1
+Unhandled exception: Protocol error - failed to read correct magic number
+
+Quitting shader compiler process

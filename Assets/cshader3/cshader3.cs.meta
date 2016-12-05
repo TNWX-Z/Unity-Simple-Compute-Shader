@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 739e245418e42d64f91a38f72f02cef5
+timeCreated: 1462271667
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  - cshader: {fileID: 7200000, guid: 8b28280772171054e92cd9eddd704d0a, type: 3}
+  - mat: {fileID: 2100000, guid: 40bccce2b51e99a408da90df2209b483, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

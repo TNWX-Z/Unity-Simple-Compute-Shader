@@ -1,0 +1,11 @@
+﻿#pragma kernel CSMain
+
+RWStructuredBuffer<float3> posbuffer;
+
+
+[numthreads(4,4,4)]
+void CSMain (uint3 id : SV_DispatchThreadID,uint index : SV_GroupThreadID)
+{
+	uint idx = id.x + id.y*4 + id.z*16;
+	posbuffer[idx] = float3(id)*10.;
+}

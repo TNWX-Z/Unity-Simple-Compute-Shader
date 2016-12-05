@@ -1,0 +1,19 @@
+﻿#pragma kernel CSMain
+#pragma kernel PosKernel
+
+RWStructuredBuffer<float3> buffer;
+
+RWStructuredBuffer<float3> posbuffer;
+
+[numthreads(4,4,4)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+	int TID = id.x + id.y*40 + id.z*40*40;
+	buffer[TID] = float3(id);
+} 
+
+[numthreads(4,1,1)]
+void PosKernel(uint3 id : SV_DispatchThreadID)
+{
+	posbuffer[id.x] = float3(id);
+}

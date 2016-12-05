@@ -1,0 +1,22 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+//RWTexture2D<float4> Result;
+
+int x,y,z;
+
+RWStructuredBuffer<float3> buffer;
+
+[numthreads(10,10,10)]
+void CSMain (
+		uint3 id : SV_DispatchThreadID,
+		uint3 GTid : SV_GroupThreadID,
+		uint3 Gid : SV_GroupID,
+		uint GIndex : SV_GroupIndex)
+{
+	// TODO: insert actual code here!
+	int index = id.x+id.y*10+id.z*100;
+	buffer[index] = float3(id); 
+}
